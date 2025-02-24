@@ -1,5 +1,4 @@
 import streamlit as st
-from langchain.llms import HuggingFaceHub
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 import google.generativeai as genai
