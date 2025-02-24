@@ -1,7 +1,7 @@
 # Explanation of the Streamlit App with LangChain and Google Generative AI
 
 ## Overview
-This Python script builds a Streamlit web application that displays profile information and allows users to ask AI-generated questions using Google's Generative AI (Gemini-Pro). The application is divided into three main sections: a sidebar for profile selection, a main content area for displaying details, and a right column for AI-powered Q&A.
+This Python script builds a Streamlit web application that displays my Resume information and allows users to ask questions about my profile. I am using Google's Generative AI (Gemini-Pro) to build this application. The application is divided into three main sections: a sidebar for profile selection, a main content area for displaying details, and a right column for AI-powered Q&A.
 
 ---
 
