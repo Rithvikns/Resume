@@ -31,7 +31,7 @@ with col2:
     st.subheader(section)
     
     section_data = {
-        "Personal Information": "**Name:** Rithvik Narayana Swamy\n\n**Email:** rithvik@example.com\n\n**Phone:** +1234567890",
+        "Personal Information": "**Name:** Rithvik Narayana Swamy\n\n**Email:** rithviknswamy@gmail.com\n\n**Phone:** +4915778463738",
         "Education": "**Degree:** B.Tech in Computer Science - XYZ University",
         "Work Experience": "**Position:** Software Engineer at ABC Corp",
         "Projects": "1. AI Chatbot\n2. Web Scraper\n3. Portfolio Website",
