@@ -31,7 +31,7 @@ with col2:
     # Section Data
     section_data = {
         "Personal Information": lambda: (
-            st.image("profile.jpg", width=150, caption="Profile Image"),
+            st.image("backend/profile.jpg", width=150, caption="Profile Image"),
             st.markdown("### Name: Rithvik Narayana Swamy"),
             st.markdown("📧 **Email:** rithviknswamy@gmail.com"),
             st.markdown("📞 **Phone:** +49 1577 8463738"),
