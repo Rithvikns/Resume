@@ -31,7 +31,6 @@ with col2:
     # Section Data
     section_data = {
         "Personal Information": lambda: (
-            st.image("backend/profile.jpg", width=150, caption="Profile Image"),
             st.markdown("### Name: Rithvik Narayana Swamy"),
             st.markdown("📧 **Email:** rithviknswamy@gmail.com"),
             st.markdown("📞 **Phone:** +49 1577 8463738"),
@@ -41,12 +40,12 @@ with col2:
             ### 🎓 Education  
             **M.S in Information Technology - University Of Stuttgart (Nov 2022 - April 2025) **  
             📊 **Grade:** 2.0 GPA  
-            🔬 ** Discription** I am currently pursuing my Master of Science in Information Technology (Infotech) at the University of Stuttgart, where I am deepening my knowledge and skills in advanced IT concepts, machine learning, DevOps practices, and their practical applications.<br><br>                            
+            🔬 ** Discription** I am currently pursuing my Master of Science in Information Technology (Infotech) at the University of Stuttgart, where I am deepening my knowledge and skills in advanced IT concepts, machine learning, DevOps practices, and their practical applications.                        
             🏫 **Skills:** Docker, Cloud Computing, LSTM, C++, Embedded Systems, AI, Kubernetes  
             
             **B.Tech - Dayananda Sagar College of Engineering (Jun 2017 - Aug 2021)**  
             📊 **Grade:** 9.05 CGPA  
-            🔬 ** Discription** I completed my Bachelor of Engineering (BE) in Electronics and Communication Engineering (ECE) from Dayananda Sagar College of Engineering, This program provided me with a strong foundation in both theoretical knowledge and practical skills, preparing me for a career in the ever-evolving field.<br><br>                            
+            🔬 ** Discription** I completed my Bachelor of Engineering (BE) in Electronics and Communication Engineering (ECE) from Dayananda Sagar College of Engineering, This program provided me with a strong foundation in both theoretical knowledge and practical skills, preparing me for a career in the ever-evolving field.                         
             🏫 **Skills:** Digital Electronics, Cloud Computing, FPGA, VHDL, Neural Networks  
         """, unsafe_allow_html=True),
 
@@ -78,9 +77,29 @@ with col2:
 
         "Projects": lambda: st.markdown("""
             ### 🔬 Projects  
-            - 🚀 **AI Chatbot** - NLP-based virtual assistant  
-            - 🔍 **Web Scraper** - Automated data extraction  
-            - 🌐 **Portfolio Website** - Personal branding  
+            🚀 **Implementation of masked and unmasked LSTM on FPGA (Nov 2023 - May 2024)** 
+            - Built a LSTM model followed by an FCNN model for digit recognition using MNIST dataset. Masking of LSTM is done to secure the weights and biases of the LSTM network. The main focus of this was to prevent the side channel attacks. 
+            - The projects consist of two main sections. Initially, an LSTM network was formulated and deployed on a Xilinx Spartan-6 FPGA. Then implementation of masking techniques customized for LSTM networks is carried out.
+            - To commence, the trained neural network from TensorFlow undergoes unrolling to extract weights and biases. This data serves as the foundation for the neural network implementation. 
+            - The first LSTM neural network comprises 28 LSTM layers, each containing 2 unit cells (memory units), followed by four fully connected layers with dimensions 30, 30, 10, and 10, respectively. 
+            🔗 [For further details, refer to the GitHub repository](https://github.com/Rithvikns/Implementation-of-masked-and-unmasked-LSTM/tree/main).
+
+            🔍 **AI Planning In Smart Warehousing (Oct 2023 - Mar 2024)** 
+            - This Research explores the transformative role of AI planning in smart warehousing, highlighting its potential to streamline operations, enhance productivity, and reduce costs through advanced technologies like robotics and machine learning.
+            -  It delves into various AI planning techniques, such as classical, heuristic, temporal, and contingency planning, and their applications in inventory management, task allocation, and predictive maintenance within smart warehouses. The paper also examines real-world implementations, including the RoboPlanner framework for autonomous robots, and discusses the challenges of AI integration, such as high costs, data security, and the need for skilled personnel.
+            - Additionally, it compares formal languages like PDDL, OWL, Prolog, and ASP for AI planning in warehousing, emphasizing their unique strengths and use cases. The paper concludes by outlining future trends, including enhanced AI algorithms, human-robot collaboration, IoT integration, and sustainability, while advocating for a blended approach to AI planning to address the complex demands of modern logistics. 
+            🔗 [For further details, refer to the GitHub repository](https://github.com/Rithvikns/Project_papers/blob/main/A3_Paper_Narayana_Swamy.pdf).
+
+            🚀 **TRAFFIC RULES VIOLATION RECOGNITION FOR TWO-WHEELER USING YOLO ALGORITHM (Nov 2020 - Jul 2021)** 
+            - This project presents a system for detecting traffic rule violations by two-wheeler riders, specifically focusing on identifying riders without helmets and those engaging in triple riding (three people on a single motorcycle). The system leverages the YOLO (You Only Look Once) algorithm for real-time object detection, combined with Optical Character Recognition (OCR) for license plate recognition and Twilio for sending SMS alerts to authorities. 
+            - The proposed solution aims to automate the process of identifying traffic violators using surveillance footage, reducing the need for human intervention and improving efficiency in traffic rule enforcement. Vehicle Detection: YOLO is used to detect motorcycles in real-time from surveillance videos.
+            - Helmet Detection: After detecting the motorcycle, the system isolates the rider's head region and classifies whether a helmet is worn using YOLO. Triple Riding Detection: The system detects if three people are on a motorcycle using bounding boxes and counts the number of riders.
+            - License Plate Recognition: OCR is used to extract the license plate number of the violating vehicle. SMS Alert: Twilio API sends an SMS to the concerned authority with the vehicle details of the violator.
+            - The system was trained on a dataset prepared from Kaggle, CCTV footage, and custom datasets, achieving accuracies of 85% for helmet detection, 90-93% for triple riding detection, and 88-92% for license plate recognition. The paper concludes with future work aimed at improving the system's accuracy and scalability for real-time traffic signal applications
+            🔗 [For further details, refer to the GitHub repository](https://github.com/Rithvikns/Project_papers/blob/main/project%20paper%20(1).pdf).
+            
+            - 🌐 **Portfolio Website** 
+            - Resume buising Langchain and LLM  
         """, unsafe_allow_html=True),
 
         "Skills": lambda: st.markdown("""
