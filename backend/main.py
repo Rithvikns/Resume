@@ -120,15 +120,18 @@ with col2:
         "Languages": lambda: st.markdown("""
             ### 🌍 Languages  
             🗣️ **English:** Fluent  
-            🗣️ **German:** Intermediate  
-            🗣️ **French:** Basic  
+            🗣️ **German:** Intermediate
+            🗣️ **Hindi:** Intermediate
+            🗣️ **Kannada:** Fluent 
         """, unsafe_allow_html=True),
 
         "Hobby": lambda: st.markdown("""
             ### 🎭 Hobbies  
-            📷 **Photography**  
+            📷 **Travelling`**  
             ♟️ **Chess**  
-            ✍️ **Blogging**  
+            ✍️ **Blogging**
+            🏏 **Cricket**
+            
         """, unsafe_allow_html=True),
     }
 
