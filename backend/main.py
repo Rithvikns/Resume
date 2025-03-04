@@ -41,7 +41,7 @@ with col2:
             **M.S in Information Technology - University Of Stuttgart (Nov 2022 - April 2025) **  
             📊 **Grade:** 2.0 GPA  
             🔬 ** Discription** I am currently pursuing my Master of Science in Information Technology (Infotech) at the University of Stuttgart, where I am deepening my knowledge and skills in advanced IT concepts, machine learning, DevOps practices, and their practical applications.                        
-            🏫 **Skills:** Docker, Cloud Computing, LSTM, C++, Embedded Systems, AI, Kubernetes  
+            🏫 **Skills:** Docker, Cloud Computing,causality mining,root cause anaysis, LSTM, C++, Embedded Systems, AI, Kubernetes  
             
             **B.Tech - Dayananda Sagar College of Engineering (Jun 2017 - Aug 2021)**  
             📊 **Grade:** 9.05 CGPA  
