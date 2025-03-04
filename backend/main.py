@@ -126,7 +126,7 @@ with col2:
         "Languages": lambda: st.markdown("""
             ### 🌍 Languages  
             🗣️ **English:** Fluent  
-            🗣️ **German:** Intermediate
+            🗣️ **German:** Basic
             🗣️ **Hindi:** Intermediate
             🗣️ **Kannada:** Fluent 
         """, unsafe_allow_html=True),
