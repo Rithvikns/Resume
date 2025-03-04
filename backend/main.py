@@ -98,8 +98,14 @@ with col2:
             - The system was trained on a dataset prepared from Kaggle, CCTV footage, and custom datasets, achieving accuracies of 85% for helmet detection, 90-93% for triple riding detection, and 88-92% for license plate recognition. The paper concludes with future work aimed at improving the system's accuracy and scalability for real-time traffic signal applications
             🔗 [For further details, refer to the GitHub repository](https://github.com/Rithvikns/Project_papers/blob/main/project%20paper%20(1).pdf).
             
-            - 🌐 **Portfolio Website** 
-            - Resume buising Langchain and LLM  
+            🌐 **Portfolio Website with LLM** 
+            - This is a **Portfolio Website** that showcases my work and allows users to interact with an **LLM-powered chat** to learn more details about me. The website is built using **Streamlit**, integrates with **Google Bard**, and utilizes **Python tools** alongside **vector embedding** with **instructive embedding** for enhanced responses.
+            - **Personal Portfolio**: Displays my projects, experience, and skills.
+            - **Chatbot Integration**: A chat interface for users to ask questions about my portfolio.
+            - **Google Bard API**: Enables responses from a large language model.
+            - **Streamlit UI**: Provides a simple and interactive front end.
+            - **Vector Embeddings**: Uses instructive embedding to improve chatbot responses.
+            - **Python Utilities**: Backend utilities to process user queries and data.
         """, unsafe_allow_html=True),
 
         "Skills": lambda: st.markdown("""
