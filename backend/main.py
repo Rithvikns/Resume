@@ -6,7 +6,8 @@ import google.generativeai as genai
 
 GOOGLE_API_KEY = "AIzaSyDHQ4oxBF3eYLy-vNKbA-U8AwhB2Eivm_E"
 genai.configure(api_key=GOOGLE_API_KEY)
-
+for model in genai.list_models():
+    print(model.name)
 
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY, temperature=0.7)
 # Set page layout
